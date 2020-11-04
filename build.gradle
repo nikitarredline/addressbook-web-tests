@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.testng:testng:7.3.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-6'
+}
+
+test {
+    useTestNG()
+}
