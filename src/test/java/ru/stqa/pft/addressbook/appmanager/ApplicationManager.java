@@ -25,10 +25,6 @@ public class ApplicationManager {
         sessionHelper.login("admin", "secret");
     }
 
-    public void returnToHomePage() {
-      wd.findElement(By.linkText("home page")).click();
-    }
-
     public void stop() {
         wd.quit();
     }

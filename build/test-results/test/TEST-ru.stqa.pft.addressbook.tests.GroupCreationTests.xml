@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-05T17:22:01" hostname="DESKTOP-5L1D7AE" time="8.394">
+<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-05T18:38:06" hostname="DESKTOP-5L1D7AE" time="8.432">
   <properties/>
-  <testcase name="testAddNewAdress" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.44"/>
-  <testcase name="testGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.166"/>
+  <testcase name="testAddNewAdress" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.453"/>
+  <testcase name="testGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.165"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1604596918384	geckodriver	INFO	Listening on 127.0.0.1:11745
-1604596919074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofileVaK4SV"
+1604601482636	geckodriver	INFO	Listening on 127.0.0.1:32390
+1604601483331	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofileHKZhQU"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1604596920461	Marionette	INFO	Listening on port 62388
-1604596920606	Marionette	WARN	TLS certificate errors will be ignored for this session
-нояб. 05, 2020 8:22:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1604601485063	Marionette	INFO	Listening on port 54587
+1604601485381	Marionette	WARN	TLS certificate errors will be ignored for this session
+нояб. 05, 2020 9:38:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1604596922812	Marionette	INFO	Stopped listening on port 62388
+1604601487625	Marionette	INFO	Stopped listening on port 54587
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1604596925288	geckodriver	INFO	Listening on 127.0.0.1:16254
-1604596925803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofileQX5xzY"
+1604601490157	geckodriver	INFO	Listening on 127.0.0.1:29824
+1604601490643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofileAN70p8"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1604596927534	Marionette	INFO	Listening on port 62431
-1604596927869	Marionette	WARN	TLS certificate errors will be ignored for this session
-нояб. 05, 2020 8:22:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1604601492376	Marionette	INFO	Listening on port 54639
+1604601492702	Marionette	WARN	TLS certificate errors will be ignored for this session
+нояб. 05, 2020 9:38:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1604596929765	Marionette	INFO	Stopped listening on port 62431
+1604601494604	Marionette	INFO	Stopped listening on port 54639
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 

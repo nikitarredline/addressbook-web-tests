@@ -1,6 +1,6 @@
 package ru.stqa.pft.addressbook.tests;
 
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 
 public class GroupDeletionTests extends TestBase {
 
@@ -12,4 +12,12 @@ public class GroupDeletionTests extends TestBase {
     app.getGroupHelper().returnToGroupPage();
   }
 
+  @Test
+  public void testAddNewDeletion() {
+    app.getContactHelper().returnToHomePage();
+    app.getContactHelper().selectContact();
+    app.getContactHelper().deleteContact();
+    app.getContactHelper().alertClose();
+    app.getContactHelper().returnToHomePage();
+  }
 }

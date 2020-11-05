@@ -14,4 +14,13 @@ public class GroupModificationTests extends TestBase {
         app.getGroupHelper().submitGroupModification();
         app.getGroupHelper().returnToGroupPage();
     }
+
+    @Test
+    public void testContactModification() {
+        app.getContactHelper().returnToHomePage();
+        app.getContactHelper().initContactModification();
+        app.getContactHelper().fillAddNew(new GroupData("test1", "test2", "test3", "test4"));
+        app.getContactHelper().submitContactModification();
+        app.getContactHelper().returnToHomePage();
+    }
 }

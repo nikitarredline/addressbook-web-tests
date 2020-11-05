@@ -19,7 +19,7 @@ public class GroupCreationTests extends TestBase {
     app.getNavigationHelper().gotoAddNew();
     app.getContactHelper().fillAddNew(new GroupData("test1", "test2", "test3", "test4"));
     app.getGroupHelper().submitGroupCreation();
-    app.returnToHomePage();
+    app.getContactHelper().returnToHomePage();
   }
 
 }
