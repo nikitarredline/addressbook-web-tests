@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.tests.ContactModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-06T11:27:32" hostname="DESKTOP-5L1D7AE" time="1.63">
+  <properties/>
+  <testcase name="testContactModification" classname="ru.stqa.pft.addressbook.tests.ContactModificationTests" time="1.63"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1604662048747	geckodriver	INFO	Listening on 127.0.0.1:17111
+1604662049269	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofilezXalCJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604662051185	Marionette	INFO	Listening on port 49204
+1604662051335	Marionette	WARN	TLS certificate errors will be ignored for this session
+нояб. 06, 2020 2:27:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1604662053669	Marionette	INFO	Stopped listening on port 49204
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+]]></system-err>
+</testsuite>

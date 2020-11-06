@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.GroupDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-05T18:38:18" hostname="DESKTOP-5L1D7AE" time="6.953">
+<testsuite name="ru.stqa.pft.addressbook.tests.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-06T11:27:42" hostname="DESKTOP-5L1D7AE" time="0.505">
   <properties/>
-  <testcase name="testAddNewDeletion" classname="ru.stqa.pft.addressbook.tests.GroupDeletionTests" time="0.593"/>
-  <testcase name="testGroupDeletion" classname="ru.stqa.pft.addressbook.tests.GroupDeletionTests" time="0.558"/>
+  <testcase name="testGroupDeletion" classname="ru.stqa.pft.addressbook.tests.GroupDeletionTests" time="0.505"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1604601495147	geckodriver	INFO	Listening on 127.0.0.1:4642
-1604601495658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofileAm3qZa"
+  <system-err><![CDATA[1604662059311	geckodriver	INFO	Listening on 127.0.0.1:18718
+1604662059827	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofileFbwae7"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1604601497445	Marionette	INFO	Listening on port 54689
-1604601497705	Marionette	WARN	TLS certificate errors will be ignored for this session
-нояб. 05, 2020 9:38:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1604662061745	Marionette	INFO	Listening on port 49291
+1604662061872	Marionette	WARN	TLS certificate errors will be ignored for this session
+нояб. 06, 2020 2:27:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1604601499029	Marionette	INFO	Stopped listening on port 54689
-JavaScript error: chrome://marionette/content/navigate.js, line 213: TypeError: driver.dialogObserver is null
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1604601501568	geckodriver	INFO	Listening on 127.0.0.1:4317
-1604601502048	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofileVNWpdL"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1604601503839	Marionette	INFO	Listening on port 54739
-1604601504086	Marionette	WARN	TLS certificate errors will be ignored for this session
-нояб. 05, 2020 9:38:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1604601505390	Marionette	INFO	Stopped listening on port 54739
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+1604662063120	Marionette	INFO	Stopped listening on port 49291
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

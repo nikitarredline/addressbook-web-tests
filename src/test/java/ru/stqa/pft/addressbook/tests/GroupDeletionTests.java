@@ -12,12 +12,4 @@ public class GroupDeletionTests extends TestBase {
     app.getGroupHelper().returnToGroupPage();
   }
 
-  @Test
-  public void testAddNewDeletion() {
-    app.getContactHelper().returnToHomePage();
-    app.getContactHelper().selectContact();
-    app.getContactHelper().deleteContact();
-    app.getContactHelper().alertClose();
-    app.getContactHelper().returnToHomePage();
-  }
 }
