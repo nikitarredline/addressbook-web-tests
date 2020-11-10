@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-06T11:27:37" hostname="DESKTOP-5L1D7AE" time="1.169">
+<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-10T21:48:00" hostname="DESKTOP-5L1D7AE" time="0.637">
   <properties/>
-  <testcase name="testGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.169"/>
+  <testcase name="testGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="0.637"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1604662054243	geckodriver	INFO	Listening on 127.0.0.1:10755
-1604662054752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Xiaomi\\AppData\\Local\\Temp\\rust_mozprofile3cXWQr"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1604662056628	Marionette	INFO	Listening on port 49248
-1604662056816	Marionette	WARN	TLS certificate errors will be ignored for this session
-нояб. 06, 2020 2:27:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 43523
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+нояб. 11, 2020 12:47:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1604662058724	Marionette	INFO	Stopped listening on port 49248
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
 ]]></system-err>
 </testsuite>
