@@ -1,15 +1,16 @@
 package ru.stqa.pft.addressbook.tests;
 
-import org.testng.annotations.Test;
-import ru.stqa.pft.addressbook.model.GroupData;
+import org.testng.annotations.*;
+import ru.stqa.pft.addressbook.model.ContactData;
 
 public class ContactCreationTests extends TestBase {
 
     @Test
     public void testAddNewAdress() {
-        app.getNavigationHelper().gotoAddNew();
-        app.getContactHelper().fillAddNew(new GroupData("test1", "test2", "test3", "test4"));
-        app.getGroupHelper().submitGroupCreation();
+        app.getNavigationHelper().gotoHomePage();
+        app.getContactHelper().initContactCreation();
+        app.getContactHelper().fillContactForm(new ContactData("test_name", "test_surname", "[none]"), true);
+        app.getContactHelper().submitContactCreation();
         app.getContactHelper().returnToHomePage();
     }
 
