@@ -3,27 +3,33 @@ package ru.stqa.pft.addressbook.model;
 import java.util.Objects;
 
 public class ContactData {
-    private int id;
-    private final String firstname;
-    private final String secondname;
+    private int id = Integer.MAX_VALUE;
+    private String firstname;
+    private String secondname;
     private String group;
-
-    public ContactData(String firstname, String secondname, String group) {
-        this.id = Integer.MAX_VALUE;
-        this.firstname = firstname;
-        this.secondname = secondname;
-        this.group = group;
-    }
-
-    public ContactData(int id, String firstname, String secondname, String group) {
-        this.id = id;
-        this.firstname = firstname;
-        this.secondname = secondname;
-        this.group = group;
-    }
 
     public int getId() {
         return id;
+    }
+
+    public ContactData withId(int id) {
+        this.id = id;
+        return this;
+    }
+
+    public ContactData withFirstname(String firstname) {
+        this.firstname = firstname;
+        return this;
+    }
+
+    public ContactData withLastname(String secondname) {
+        this.secondname = secondname;
+        return this;
+    }
+
+    public ContactData withGroup(String group) {
+        this.group = group;
+        return this;
     }
 
     public void setId(int id) {
@@ -43,13 +49,13 @@ public class ContactData {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ContactData that = (ContactData) o;
-        return Objects.equals(firstname, that.firstname) &&
-                Objects.equals(secondname, that.secondname);
+        return id == that.id &&
+                Objects.equals(firstname, that.firstname);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstname, secondname);
+        return Objects.hash(id, firstname);
     }
 
     @Override
