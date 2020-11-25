@@ -9,12 +9,12 @@ public class TestBase {
 
     protected static final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
 
-    @BeforeSuite(alwaysRun = true)
+    @BeforeSuite
     public void setUp() {
         app.init();
     }
 
-    @AfterSuite(alwaysRun = true)
+    @AfterSuite
     public void tearDown() {
         app.stop();
     }
