@@ -22,19 +22,20 @@ public class ContactHelper extends HelperBase {
     public void fillContactForm(ContactData contactData, boolean creation) {
         type(By.name("firstname"), contactData.getFirstname());
         type(By.name("lastname"), contactData.getLastname());
+        attach(By.name("photo"), contactData.getPhoto());
 
-        if (creation) {
-            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
-        }   else {
-            Assert.assertFalse(isElementPresent(By.name("new_group")));
-        }
-        type(By.name("address"), contactData.getAddress());
-        type(By.name("home"), contactData.getHomePhone());
-        type(By.name("mobile"), contactData.getMobilePhone());
-        type(By.name("work"), contactData.getWorkPhone());
-        type(By.name("email"), contactData.getEmail());
-        type(By.name("email2"), contactData.getEmail2());
-        type(By.name("email3"), contactData.getEmail3());
+//        if (creation) {
+//            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+//        }   else {
+//            Assert.assertFalse(isElementPresent(By.name("new_group")));
+//        }
+//        type(By.name("address"), contactData.getAddress());
+//        type(By.name("home"), contactData.getHomePhone());
+//        type(By.name("mobile"), contactData.getMobilePhone());
+//        type(By.name("work"), contactData.getWorkPhone());
+//        type(By.name("email"), contactData.getEmail());
+//        type(By.name("email2"), contactData.getEmail2());
+//        type(By.name("email3"), contactData.getEmail3());
     }
 
     public void selectContact(int index) {
@@ -80,7 +81,7 @@ public class ContactHelper extends HelperBase {
     public void createContact(ContactData contact, boolean creation) {
         initContactCreation();
         fillContactForm(contact, true);
-        submitContactCreation();
+        //submitContactCreation();
         returnToHomePage();
     }
 

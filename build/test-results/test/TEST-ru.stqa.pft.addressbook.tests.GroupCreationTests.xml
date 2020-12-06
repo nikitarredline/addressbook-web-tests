@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T00:04:43" hostname="DESKTOP-5L1D7AE" time="2.436">
+<testsuite name="ru.stqa.pft.addressbook.tests.GroupCreationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-06T13:26:33" hostname="DESKTOP-5L1D7AE" time="7.246">
   <properties/>
-  <testcase name="testBadGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.439"/>
-  <testcase name="testGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="0.997"/>
+  <testcase name="testBadGroupCreation" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="2.437"/>
+  <testcase name="testGroupCreation[0](GroupData{id='2147483647', name='test 0'})" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.599"/>
+  <testcase name="testGroupCreation[1](GroupData{id='2147483647', name='test 1'})" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.6"/>
+  <testcase name="testGroupCreation[2](GroupData{id='2147483647', name='test 2'})" classname="ru.stqa.pft.addressbook.tests.GroupCreationTests" time="1.607"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
