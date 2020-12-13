@@ -22,7 +22,7 @@ public class ContactHelper extends HelperBase {
     public void fillContactForm(ContactData contactData, boolean creation) {
         type(By.name("firstname"), contactData.getFirstname());
         type(By.name("lastname"), contactData.getLastname());
-        attach(By.name("photo"), contactData.getPhoto());
+//        attach(By.name("photo"), contactData.getPhoto());
 
 //        if (creation) {
 //            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
@@ -58,6 +58,10 @@ public class ContactHelper extends HelperBase {
         try {
             wd.switchTo().alert().accept();
         } catch (NoAlertPresentException e) {}
+    }
+
+    public int count() {
+        return wd.findElements(By.name("selected[]")).size();
     }
 
     public void submitContactModification() {

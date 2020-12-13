@@ -1,0 +1,1496 @@
+168  [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+182  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+184  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+189  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+205  [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+207  [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+342  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+342  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+346  [main] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+527  [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+537  [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+538  [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+554  [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+579  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4b629f13
+579  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@4b629f13
+580  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4b629f13
+580  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5922ae77
+581  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3deb2326
+581  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@5ef8df1e
+582  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@27eb3298
+582  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@27eb3298
+582  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@27eb3298
+583  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@71a9b4c7
+583  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@71a9b4c7
+583  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@71a9b4c7
+584  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7d61eccf
+584  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7d61eccf
+584  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7d61eccf
+585  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@63f34b70
+585  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@63f34b70
+585  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@63f34b70
+586  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3277e499
+586  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3277e499
+586  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3277e499
+587  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@2d72f75e
+587  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@2d72f75e
+587  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2d72f75e
+588  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@486be205
+588  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@486be205
+588  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@486be205
+589  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@35293c05
+589  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@35293c05
+589  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@560513ce
+590  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@560513ce
+590  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@10027fc9
+590  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@10027fc9
+591  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@c00fff0
+591  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@51768776
+592  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@d1f74b8
+592  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@d1f74b8
+593  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@287f94b1
+593  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@287f94b1
+596  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@2970a5bc
+596  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2970a5bc
+597  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2ad3a1bb
+597  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2ad3a1bb
+598  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2555fff0
+598  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2555fff0
+598  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7646731d
+599  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7646731d
+600  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@62da83ed
+600  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@62da83ed
+601  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@408b35bf
+601  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@408b35bf
+602  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@649f2009
+602  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@649f2009
+603  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@596df867
+603  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@596df867
+604  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@73393584
+604  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@73393584
+605  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@200606de
+605  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@200606de
+605  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@200606de
+606  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2ef8a8c3
+607  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@3aacf32a
+607  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3aacf32a
+607  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3aacf32a
+608  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@345e5a17
+609  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@402f80f5
+609  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@210386e0
+610  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@210386e0
+610  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@d816dde
+610  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@d816dde
+611  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@213e3629
+611  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@213e3629
+612  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@54ec8cc9
+612  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@54ec8cc9
+613  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@cc62a3b
+613  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@cc62a3b
+613  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@f5c79a6
+614  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@36ac8a63
+614  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@36ac8a63
+614  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@36ac8a63
+614  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1fe8d51b
+615  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1fe8d51b
+615  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1fe8d51b
+615  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@72bca894
+616  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@329a1243
+616  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@581d969c
+616  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@581d969c
+616  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@581d969c
+617  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7cd1ac19
+617  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7cd1ac19
+617  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7cd1ac19
+618  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@1804f60d
+618  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@238b521e
+619  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@c074c0c
+619  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@c074c0c
+619  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@58dea0a5
+620  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@2c444798
+620  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2c444798
+622  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@255990cc
+622  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@255990cc
+622  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@40e4ea87
+622  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@62c5bbdc
+623  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@2fa7ae9
+625  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@1e392345
+625  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1e392345
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7bd69e82
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@74d7184a
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@51b01960
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6831d8fd
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@27dc79f7
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6b85300e
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3aaf4f07
+626  [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5cbf9e9f
+649  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+649  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+650  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+650  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+650  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+651  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+651  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+652  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+653  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+653  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+653  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+654  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+654  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+654  [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+658  [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+662  [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook]
+662  [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=, user=root}
+662  [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+665  [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+665  [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+793  [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.4.14-MariaDB
+      major : 5
+      minor : 5
+793  [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )
+      major : 5
+      minor : 1
+793  [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.0
+802  [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+813  [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+816  [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+839  [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+842  [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@46c00568] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@56ccd751]
+893  [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.stqa.pft.addressbook.model.GroupData
+907  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+912  [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+914  [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity ru.stqa.pft.addressbook.model.GroupData on table group_list
+931  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+934  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+935  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:id]
+937  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+938  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+940  [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...)
+941  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+941  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+942  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:footer]
+942  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+942  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+943  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+943  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+943  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:header]
+943  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+943  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+943  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+944  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+944  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:name]
+944  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+944  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+945  [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.stqa.pft.addressbook.model.ContactData
+945  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+945  [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData
+945  [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity ru.stqa.pft.addressbook.model.ContactData on table addressbook
+947  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false}
+947  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+947  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:id]
+947  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+947  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+947  [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+947  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+947  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstname with lazy=false
+948  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:firstname]
+948  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstname
+948  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstname
+948  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false}
+948  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePhone with lazy=false
+948  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:homePhone]
+948  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePhone
+948  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePhone
+948  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+948  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastname with lazy=false
+948  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:lastname]
+948  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastname
+948  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastname
+948  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false}
+948  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobilePhone with lazy=false
+949  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:mobilePhone]
+949  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobilePhone
+949  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobilePhone
+949  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false}
+949  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false
+949  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:photo]
+949  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo
+949  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo
+949  [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false}
+949  [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property workPhone with lazy=false
+949  [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:workPhone]
+949  [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for workPhone
+949  [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property workPhone
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstname
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePhone
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastname
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobilePhone
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo
+951  [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for workPhone
+952  [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+952  [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook]
+979  [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+980  [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+980  [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+980  [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+980  [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+980  [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+980  [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+980  [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+980  [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+980  [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+980  [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+980  [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+981  [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+981  [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+981  [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+981  [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+981  [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+981  [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+981  [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+981  [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+1036 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+1036 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {dialect=org.hibernate.dialect.MySQLDialect, java.specification.version=14, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\testng\lib\testng-rt.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.testng\testng\7.3.0\a5069c3dfba58d23702f96c3d9f5081f5ce7136f\testng-7.3.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.78\a3927de9bd6f351429bcf763712c9890629d8f51\jcommander-1.78.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.apache.ant\ant\1.10.3\88becdeb77cdd2457757b7268e1a10666c03d382\ant-1.10.3.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.30\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\slf4j-api-1.7.30.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.49.Final\8e819a81bca88d1e88137336f64531a53db0a4ad\netty-buffer-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chromium-driver\4.0.0-alpha-6\9052e4642bbdafd193147723720fbc3474328932\selenium-chromium-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.3.4\dac170e4594de319655ffb62f41cbd6dbb5e601e\error_prone_annotations-2.3.4.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.opentelemetry\opentelemetry-context-prop\0.4.0\fd757a9c93864ad7c93081c4d0e56f491aadff22\opentelemetry-context-prop-0.4.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.auto.service\auto-service-annotations\1.0-rc6\32c6a6313217c949396376d9caddb6b8c8f4e7c3\auto-service-annotations-1.0-rc6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.auto.service\auto-service\1.0-rc6\4586e4191111b24135ffac93d3e1a91e91bf71d3\auto-service-1.0-rc6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.49.Final\a6055557f948034684884e7b3482b17b65e1c642\netty-transport-native-epoll-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.apache.ant\ant-launcher\1.10.3\9dd5189e7f561ca19833b4e3672720b9bc5cb2fe\ant-launcher-1.10.3.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.8\520d90f30f36a0d6ba2dc929d980831631ad6a92\xstream-1.4.8.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-context\1.28.0\36d7838a68e29ad12a3cf67a4e04b621c617ce09\grpc-context-1.28.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.opentelemetry\opentelemetry-api\0.4.0\93c8ab616a104f7bc0da4d7d6f17bd9a25f896e\opentelemetry-api-0.4.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.49.Final\643179308a6e7304e7a527e2424b0cffa0b9d14\netty-transport-native-epoll-4.1.49.Final-linux-x86_64.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\4.0.0-alpha-6\ac67ee553c8336a4cf4d0b46cd05437ee90326ae\selenium-java-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.opentelemetry\opentelemetry-sdk\0.4.0\11d62f65a90ef52eb40e020f0a87f20df496a305\opentelemetry-sdk-0.4.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-http\4.0.0-alpha-6\4a8c7db7b0de829c008d90277a56b34dcc9167b2\selenium-http-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.49.Final\415ea7f326635743aec952fe2349ca45959e94a7\netty-transport-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.asynchttpclient\async-http-client\2.12.1\9b1b2a8f5e836c68501a259baa6c6c3e8a7cb420\async-http-client-2.12.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\4.0.0-alpha-6\2b26a94552faeb9032f5b12670284a2481d0976\selenium-api-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\4.0.0-alpha-6\39ee52c49a09c77b0e493ef748aafe051c4714e0\selenium-remote-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\29.0-jre\801142b4c3d0f0770dd29abea50906cacfddd447\guava-29.0-jre.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http\4.1.49.Final\4f30dbc462b26c588dffc0eb7552caef1a0f549e\netty-codec-http-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\2.6.0\f06923d428f3c8e6f571043ec29a45d0cd9d2bf\okio-jvm-2.6.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\4.0.0-alpha-6\6b19d637a6a16267e6a08b525164eb21db198717\selenium-support-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\4.0.0-alpha-6\49dafb6f52343a8e27a6231627925a7be2060782\selenium-chrome-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edgehtml-driver\4.0.0-alpha-6\d65b6fdc95fd94550047cfad535647681d973264\selenium-edgehtml-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\4.0.0-alpha-6\4e205dbee81aeac0431d47a4025ca19161386be8\selenium-opera-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.auto\auto-common\0.10\c8f153ebe04a17183480ab4016098055fb474364\auto-common-0.10.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.6\9180733b7df8542621dc12e21e87557e8c99b8cb\gson-2.8.6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\2.11.1\8c43bf8f99b841d23aadda6044329dad9b63c185\checker-qual-2.11.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-devtools\4.0.0-alpha-6\7a5e377292e32261568a8c4db87324b0c4026cf5\selenium-devtools-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.49.Final\20218de83c906348283f548c255650fd06030424\netty-codec-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.hamcrest\java-hamcrest\2.0.0.0\f1c8853ade0ecf707f5a261c830e98893983813\java-hamcrest-2.0.0.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.21\18775fdda48574784f40b47bf478ab0593f92e4d\snakeyaml-1.21.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.49.Final\a2a70601dd24dfdb533ac307955b55fa9f52aca1\netty-transport-native-unix-common-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.asynchttpclient\async-http-client-netty-utils\2.12.1\b7f586db0b554e2aaba9acd321a2e1d70efcf3db\async-http-client-netty-utils-2.12.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.1.5\92353eb144695bba80b31f7bec4f36d871f230ac\logback-classic-1.1.5.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\aopalliance\aopalliance\1.0\235ba8b489512805ac13a8f9ea77a1ca5ebe3e8\aopalliance-1.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.projectreactor\reactor-core\3.3.5.RELEASE\3fe17d2b3c413c38f728049fd334ba9f69b416e1\reactor-core-3.3.5.RELEASE.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.49.Final\eb81e1f0eaa99e75983bf3d28cae2b103e0f3a34\netty-resolver-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler-proxy\4.1.48.Final\79910203db6a542189c9aaa9ec187bf5ee16248a\netty-handler-proxy-4.1.48.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\4.0.0-alpha-6\2df353cecd9f3e658c028a39d9638246852e847f\selenium-ie-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\5.1.38\dbbd7cd309ce167ec8367de4e41c63c2c8593cc5\mysql-connector-java-5.1.38.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-kqueue\4.1.49.Final\d30588d8c45c091e0213d7a11418a9036d6b3499\netty-transport-native-kqueue-4.1.49.Final-osx-x86_64.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http2\4.1.48.Final\f7a0e40d0eea9a60c05f705a128473f08a3de1dc\netty-codec-http2-4.1.48.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-socks\4.1.48.Final\42b55c9ca8672ebb7160cadf3c70ffc11638f021\netty-codec-socks-4.1.48.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.70\e5d97e25bb5b30dcfc022ec1c8f3959a875257fb\kotlin-stdlib-1.3.70.jar;C:\Users\Xiaomi\Documents\GitHub\addressbook-web-tests\out\test\classes;C:\Users\Xiaomi\Documents\GitHub\addressbook-web-tests\out\test\resources;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.22.Final\3171ee075e69d4be3a39cbadcad9db3c2c0f2681\hibernate-core-5.4.22.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.inject\guice\4.2.2\fa13659f9128f4c011c8e1d06f137083b4876377\guice-4.2.2-no_aop.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\4.0.0-alpha-6\302f9ea0c973b53fed8364660b30df30caf26988\selenium-edge-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-xpi-driver\4.0.0-alpha-6\988657b2c456fafa19bc6b1d1b33b22fef934d0e\selenium-firefox-xpi-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\4.0.0-alpha-6\6582b237b92209443acc6a780f4fbd1e7db159fc\selenium-firefox-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\4.0.0-alpha-6\bc4f2e3a387a792f205d6f007c05ecf08e6fba59\selenium-safari-driver-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.1.5\16722afde74444716e299bee1f60aec9f6d1f0dc\logback-core-1.1.5.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.10.10\602a3da70f603752d3ce20a9997817d8dec39b51\byte-buddy-1.10.10.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.1.3.Final\cd56603e39eb1421560b71daa584348ecfd9e0b8\jandex-2.1.3.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.3\a75914155a9f5808963170ec20653668a2ffd2fd\dom4j-2.1.3.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-json\4.0.0-alpha-6\83139783aa0aa63b6fddc2beee8663ac1a4958c9\selenium-json-4.0.0-alpha-6.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\4.5.0\cfd127ae6de4862daa93e15ceae9291108eaabc5\okhttp-4.5.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.typesafe.netty\netty-reactive-streams\2.0.4\f77c8eaa7d5e2f2160b6d21ba385cf726f164b2\netty-reactive-streams-2.0.4.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.projectreactor.netty\reactor-netty\0.9.6.RELEASE\b98b670a8dc1079b17ff5dd82cc78acac001999a\reactor-netty-0.9.6.RELEASE.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-kqueue\4.1.49.Final\be85a89f5895c7d7f75cd78daa4fda23fb20d622\netty-transport-native-kqueue-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.49.Final\c73443adb9d085d5dc2d5b7f3bdd91d5963976f7\netty-handler-4.1.49.Final.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.3\d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0\reactive-streams-1.0.3.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\com.sun.activation\javax.activation\1.2.0\bf744c1e2776ed1de3c55c8dac1057ec331ef744\javax.activation-1.2.0.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.70\3fa8dd6c896d635e78201e5e811545f3846dec04\kotlin-stdlib-common-1.3.70.jar;C:\Users\Xiaomi\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.49.Final\927c8563a1662d869b145e70ce82ad89100f2c90\netty-common-4.1.49.Final.jar, java.vm.vendor=BellSoft, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, hbm2ddl.auto=validate, user.variant=, java.vendor.url=https://bell-sw.com/, user.timezone=Europe/Moscow, java.vm.specification.version=14, os.name=Windows 10, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Users\Xiaomi\.jdks\liberica-14.0.2\bin, sun.java.command=com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket52219 @w@C:\Users\Xiaomi\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Xiaomi\AppData\Local\Temp\idea_testng.tmp, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Xiaomi, user.language=ru, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, java.version.date=2020-07-14, java.home=C:\Users\Xiaomi\.jdks\liberica-14.0.2, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=14.0.2+13, user.name=Xiaomi, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=https://bell-sw.com/support, java.io.tmpdir=C:\Users\Xiaomi\AppData\Local\Temp\, java.version=14.0.2, user.dir=C:\Users\Xiaomi\Documents\GitHub\addressbook-web-tests, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, connection.driver_class=com.mysql.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@1c758545, java.library.path=C:\Users\Xiaomi\.jdks\liberica-14.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Xiaomi\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Xiaomi\AppData\Local\Programs\Python\Python38-32\;C:\Users\Xiaomi\AppData\Local\Microsoft\WindowsApps;C:\Users\Xiaomi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-15\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\Xiaomi\AppData\Local\GitHubDesktop\bin;C:\Gradle\gradle-6.7\bin;;., java.vendor=BellSoft, java.vm.info=mixed mode, sharing, java.vm.version=14.0.2+13, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook, java.class.version=58.0}
+1046 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+1047 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+1047 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@46c00568] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@65b66b08]
+1079 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.ContactData] is safe
+1079 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.ContactData
+1090 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.ContactData] is safe
+1090 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.ContactData
+1250 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.GroupData] is safe
+1250 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.GroupData
+1250 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.GroupData] is safe
+1250 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.GroupData
+1260 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: ru.stqa.pft.addressbook.model.ContactData
+1260 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =?
+1260 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.firstname as firstnam2_0_, contactdat_.home as home3_0_, contactdat_.lastname as lastname4_0_, contactdat_.mobile as mobile5_0_, contactdat_.photo as photo6_0_, contactdat_.work as work7_0_ from addressbook contactdat_ where contactdat_.id=?
+1260 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (firstname, home, lastname, mobile, photo, work, id) values (?, ?, ?, ?, ?, ?, ?)
+1260 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set firstname=?, home=?, lastname=?, mobile=?, photo=?, work=? where id=?
+1260 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=?
+1275 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@554c4eaa]
+1276 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname
+1276 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone
+1276 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname
+1276 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobilePhone
+1276 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+1276 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone
+1276 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1284 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1286 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+1287 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.ContactData [NONE]: select contactdat0_.id as id1_0_0_, contactdat0_.firstname as firstnam2_0_0_, contactdat0_.home as home3_0_0_, contactdat0_.lastname as lastname4_0_0_, contactdat0_.mobile as mobile5_0_0_, contactdat0_.photo as photo6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+1287 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ebe4ccc]
+1288 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname
+1288 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone
+1288 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname
+1288 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobilePhone
+1288 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo
+1288 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone
+1288 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1288 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1288 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+1288 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.ContactData [READ]: select contactdat0_.id as id1_0_0_, contactdat0_.firstname as firstnam2_0_0_, contactdat0_.home as home3_0_0_, contactdat0_.lastname as lastname4_0_0_, contactdat0_.mobile as mobile5_0_0_, contactdat0_.photo as photo6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+1296 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity ru.stqa.pft.addressbook.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.firstname as firstnam2_0_0_, contactdat0_.home as home3_0_0_, contactdat0_.lastname as lastname4_0_0_, contactdat0_.mobile as mobile5_0_0_, contactdat0_.photo as photo6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+1297 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity ru.stqa.pft.addressbook.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.firstname as firstnam2_0_0_, contactdat0_.home as home3_0_0_, contactdat0_.lastname as lastname4_0_0_, contactdat0_.mobile as mobile5_0_0_, contactdat0_.photo as photo6_0_0_, contactdat0_.work as work7_0_0_ from addressbook contactdat0_ where contactdat0_.id=?
+1297 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: ru.stqa.pft.addressbook.model.GroupData
+1297 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+1297 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_1_, groupdata_.group_header as group_he3_1_, groupdata_.group_name as group_na4_1_ from group_list groupdata_ where groupdata_.group_id=?
+1297 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+1297 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+1297 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+1297 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d6ccc97]
+1297 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1297 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1297 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1297 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1297 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1297 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1297 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1298 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@161aa04a]
+1298 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer
+1298 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header
+1298 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name
+1298 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+1298 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+1298 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+
+1298 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.GroupData [READ]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1298 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity ru.stqa.pft.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1298 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity ru.stqa.pft.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=?
+1327 [main] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7e307087] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+1395 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+1396 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+1401 [main] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1401 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1402 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+1402 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+1408 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@75babb67
+1409 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: 90e54475-7a32-4dc9-a582-68fe0d082ac6 (<unnamed>)
+1409 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+1487 [main] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+1489 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+1489 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+1492 [main] DEBUG i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50ab56e2
+1504 [main] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+1505 [main] DEBUG i.n.u.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+1505 [main] DEBUG i.n.u.internal.PlatformDependent0 - Java version: 14
+1506 [main] DEBUG i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+1507 [main] DEBUG i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+1507 [main] DEBUG i.n.u.internal.PlatformDependent0 - java.nio.Buffer.address: available
+1509 [main] DEBUG i.n.u.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:233)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:227)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:39)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:86)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:80)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:72)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:63)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at ru.stqa.pft.addressbook.appmanager.ApplicationManager.init(ApplicationManager.java:41)
+	at ru.stqa.pft.addressbook.tests.TestBase.setUp(TestBase.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+1509 [main] DEBUG i.n.u.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+1510 [main] DEBUG i.n.u.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4163f1cd
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:647)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:347)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:338)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:289)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:39)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:86)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:80)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:72)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:63)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at ru.stqa.pft.addressbook.appmanager.ApplicationManager.init(ApplicationManager.java:41)
+	at ru.stqa.pft.addressbook.tests.TestBase.setUp(TestBase.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+1510 [main] DEBUG i.n.u.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+1510 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+1518 [main] DEBUG i.n.util.internal.PlatformDependent - maxDirectMemory: 4261412864 bytes (maybe)
+1518 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Xiaomi\AppData\Local\Temp (java.io.tmpdir)
+1518 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+1519 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+1519 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+1519 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+1519 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+1526 [main] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+1633 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+1633 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+1661 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+1662 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+1666 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+1671 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+1671 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+1699 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+1703 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+1703 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+1703 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2388 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 21188 (auto-detected)
+2390 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2390 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2397 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2398 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2410 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: b4:a9:fc:ff:fe:2c:d3:64 (auto-detected)
+2434 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2434 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2434 [AsyncHttpClient-3-1] DEBUG i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5ee6bf98
+2444 [AsyncHttpClient-3-1] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to '/session'
+2455 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2455 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2455 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2455 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+4988 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 715
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+4992 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5017 [AsyncHttpClient-3-2] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0xc1414dea, L:/127.0.0.1:52291 - R:localhost/127.0.0.1:52281]' for 'GET' to '/json/version'
+5020 [AsyncHttpClient-3-2] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+host: localhost:52281
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 424
+Content-Type: application/json; charset=UTF-8
+
+5020 [AsyncHttpClient-3-2] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:52281 for channel [id: 0xc1414dea, L:/127.0.0.1:52291 - R:localhost/127.0.0.1:52281]
+5025 [main] DEBUG i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x19c7bb941060bd3b
+5027 [AsyncHttpClient-3-3] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x43b62847, L:/127.0.0.1:52292 - R:localhost/127.0.0.1:52281]' for 'GET' to '/devtools/browser/9b27cc3a-6a09-4a14-9647-448b330eab17'
+5031 [AsyncHttpClient-3-3] DEBUG o.a.netty.handler.WebSocketHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/9b27cc3a-6a09-4a14-9647-448b330eab17 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: KROBBo0GDCkLu/4GXxg9aA==
+sec-websocket-version: 13
+origin: http://localhost:52281
+host: localhost:52281
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: i3ygIeuMKosgHRgmng2EYSShgNo=
+
+5038 [Forwarding setTimeout on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/timeouts'
+5038 [Forwarding setTimeout on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/timeouts'
+5041 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/timeouts HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 19
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5041 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5043 [Forwarding get on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/url'
+5043 [Forwarding get on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/url'
+5142 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/url HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5142 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5147 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5147 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5157 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5157 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5159 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/click'
+5159 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/click'
+5190 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5190 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5191 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5191 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5197 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5197 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5206 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5206 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5217 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/execute/sync HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 39635
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5217 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5218 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5218 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5223 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5223 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5224 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/clear'
+5224 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/clear'
+5241 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/clear HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5241 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5242 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5242 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5248 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5248 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5251 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/value'
+5251 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/value'
+5269 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/0b5e9b79-667b-4c2d-8c23-6a76bdacd916/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 131
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5269 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5270 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5270 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5278 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5278 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5279 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/click'
+5279 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/click'
+5308 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5308 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5309 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5309 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5314 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5314 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5317 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5318 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5326 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/execute/sync HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 39635
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5327 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5328 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5328 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5333 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5333 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5334 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/clear'
+5334 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/clear'
+5350 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/clear HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5350 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5351 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5351 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5357 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5357 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5358 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/value'
+5358 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/value'
+5375 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/0acfb720-74dc-4466-8096-eeeac636c718/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 141
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5375 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5376 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5376 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5384 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 70
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5384 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5385 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/5d252a6d-4886-4cb2-8ec6-8ef53258363d/click'
+5385 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/5d252a6d-4886-4cb2-8ec6-8ef53258363d/click'
+5549 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/5d252a6d-4886-4cb2-8ec6-8ef53258363d/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5549 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5562 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start test testContactDeletion with parameters []
+5565 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5565 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5575 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5575 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5577 [Forwarding findElements on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/elements'
+5577 [Forwarding findElements on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/elements'
+5586 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/elements HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 59
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5587 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5590 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5590 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5600 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 48
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5600 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5602 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/47384edd-cdd4-462e-9db7-e640b76650c8/click'
+5602 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/47384edd-cdd4-462e-9db7-e640b76650c8/click'
+5791 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/47384edd-cdd4-462e-9db7-e640b76650c8/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5791 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5792 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5792 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5801 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 63
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5802 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5803 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/click'
+5803 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/click'
+5837 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5837 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5839 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5839 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5844 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 63
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5844 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5847 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5847 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5854 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/execute/sync HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 39635
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5854 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5855 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5855 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5861 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 63
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5861 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5862 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/clear'
+5862 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/clear'
+5879 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/clear HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5879 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5880 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5880 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5885 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 63
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5885 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5887 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/value'
+5887 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/value'
+5906 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/d34b2b74-ae4f-43ab-bcfd-7136c35bd36c/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 171
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5907 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5908 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5908 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5915 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 62
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5915 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5916 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/click'
+5916 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/click'
+5944 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5945 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5945 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5945 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5949 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 62
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5949 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5952 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5952 [Forwarding getElementAttribute on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/execute/sync'
+5959 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/execute/sync HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 39635
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5959 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5960 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5960 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5965 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 62
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5966 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5966 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/clear'
+5966 [Forwarding clearElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/clear'
+5983 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/clear HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5984 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5985 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+5985 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+5990 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 62
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+5990 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+5991 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/value'
+5991 [Forwarding sendKeysToElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/value'
+6013 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/d35f099f-51a2-4601-a173-7ae3397db03a/value HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 201
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+6013 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+6014 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element'
+6014 [Forwarding findElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element'
+6024 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 45
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+6024 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+6025 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'POST' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843/element/b745ab00-4e9a-4253-a4e3-df13504fe7d8/click'
+6025 [Forwarding clickElement on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for POST '/session/8e9af222c69d974d8fde93004f25d843/element/b745ab00-4e9a-4253-a4e3-df13504fe7d8/click'
+6030 [AsyncHttpClient-timer-1-1] DEBUG o.a.n.channel.DefaultChannelPool - Entry count for : http://localhost:52281 : 1
+6138 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/8e9af222c69d974d8fde93004f25d843/element/b745ab00-4e9a-4253-a4e3-df13504fe7d8/click HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+6138 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+6185 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+6188 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+6188 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+6197 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@1fee4278
+6215 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from ru.stqa.pft.addressbook.model.ContactData
+6217 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+6220 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[DOT] Node: '.'
+                |  |  |  +-[DOT] Node: '.'
+                |  |  |  |  +-[IDENT] Node: 'ru'
+                |  |  |  |  \-[IDENT] Node: 'stqa'
+                |  |  |  \-[IDENT] Node: 'pft'
+                |  |  \-[IDENT] Node: 'addressbook'
+                |  \-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'ContactData'
+
+6233 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+6244 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : ru.stqa.pft.addressbook.model.ContactData (<no alias>) -> contactdat0_
+6245 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+6245 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} addressbook contactdat0_ ) )
+6248 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created.
+6251 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity ContactData): [addressbook]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(ru.stqa.pft.addressbook.model.ContactData)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+6253 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [addressbook contactdat0_]
+6253 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+6254 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (addressbook)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'contactdat0_.id as id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.ContactData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'contactdat0_.firstname as firstnam2_0_, contactdat0_.home as home3_0_, contactdat0_.lastname as lastname4_0_, contactdat0_.mobile as mobile5_0_, contactdat0_.photo as photo6_0_, contactdat0_.work as work7_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[contactdat0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'addressbook contactdat0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.ContactData}}
+
+6254 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+6259 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from ru.stqa.pft.addressbook.model.ContactData
+6259 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select contactdat0_.id as id1_0_, contactdat0_.firstname as firstnam2_0_, contactdat0_.home as home3_0_, contactdat0_.lastname as lastname4_0_, contactdat0_.mobile as mobile5_0_, contactdat0_.photo as photo6_0_, contactdat0_.work as work7_0_ from addressbook contactdat0_
+6259 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+6267 [main] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.firstname as firstnam2_0_, contactdat0_.home as home3_0_, contactdat0_.lastname as lastname4_0_, contactdat0_.mobile as mobile5_0_, contactdat0_.photo as photo6_0_, contactdat0_.work as work7_0_ from addressbook contactdat0_
+6278 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+6279 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+6279 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+6283 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop test testContactDeletion
+6286 [Forwarding quit on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using pooled Channel '[id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]' for 'DELETE' to 'http://localhost:10276/session/8e9af222c69d974d8fde93004f25d843'
+6286 [Forwarding quit on session 8e9af222c69d974d8fde93004f25d843 to remote] DEBUG o.a.n.request.NettyRequestSender - Using open Channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276] for DELETE '/session/8e9af222c69d974d8fde93004f25d843'
+6287 [AsyncHttpClient-3-3] DEBUG o.a.netty.handler.WebSocketHandler - Channel Closed: [id: 0x43b62847, L:/127.0.0.1:52292 ! R:localhost/127.0.0.1:52281] with attribute NettyResponseFuture{currentRetry=5,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@70711330,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@1c558267,
+	future=java.util.concurrent.CompletableFuture@77b9af44[Completed normally],
+	uri=ws://localhost:52281/devtools/browser/9b27cc3a-6a09-4a14-9647-448b330eab17,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1607854600962}
+6287 [AsyncHttpClient-3-3] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0x43b62847, L:/127.0.0.1:52292 ! R:localhost/127.0.0.1:52281] 
+6297 [AsyncHttpClient-3-2] DEBUG o.a.netty.handler.HttpHandler - Unexpected I/O exception on channel [id: 0xc1414dea, L:/127.0.0.1:52291 - R:localhost/127.0.0.1:52281]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+6298 [AsyncHttpClient-3-2] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0xc1414dea, L:/127.0.0.1:52291 - R:localhost/127.0.0.1:52281] 
+6298 [AsyncHttpClient-3-2] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0xc1414dea, L:/127.0.0.1:52291 ! R:localhost/127.0.0.1:52281] with attribute DISCARD
+6308 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/8e9af222c69d974d8fde93004f25d843 HTTP/1.1
+User-Agent: selenium/4.0.0-alpha-6 (java windows)
+host: localhost:10276
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+6309 [AsyncHttpClient-3-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://localhost:10276 for channel [id: 0x8c873941, L:/127.0.0.1:52280 - R:localhost/127.0.0.1:10276]
+6348 [AsyncHttpClient-3-1] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0x8c873941, L:/127.0.0.1:52280 ! R:localhost/127.0.0.1:10276] with attribute DISCARD
