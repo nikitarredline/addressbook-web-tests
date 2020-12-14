@@ -40,7 +40,7 @@ public class ContactCreationTests extends TestBase {
         app.goTo().gotoHomePage();
         Contacts before = app.db().contacts();
         File photo = new File("src/test/resources/stru.png");
-        app.contact().createContact(contact, true);
+        app.contact().create(contact, true);
         Contacts after = app.db().contacts();
         assertThat(after.size(), equalTo(before.size() + 1));
 
