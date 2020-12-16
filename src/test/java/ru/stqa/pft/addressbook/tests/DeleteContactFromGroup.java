@@ -35,12 +35,16 @@ public class DeleteContactFromGroup extends TestBase {
         GroupData groupSelect = beforeGroup.iterator().next();
 
         app.goTo().gotoHomePage();
-        app.contact().selectAllDisplayGroup();
-        app.contact().addContactToGroup(contactSelect, groupSelect);
-        app.goTo().gotoHomePage();
-        app.contact().selectLastDisplayGroup();
+        if (contactSelect.getGroups().isEmpty() || !contactSelect.getGroups().contains(groupSelect)) {
+            app.contact().selectDisplayGroup("[all]");
+            app.contact().addContactToGroup(contactSelect, groupSelect);
+            assertThat(contactSelect.getGroups().withAdded(groupSelect), equalTo(app.db().contacts().stream().
+                    filter((c) -> c.getId() == contactSelect.getId()).collect(Collectors.toList()).get(0).getGroups()));
+            app.goTo().gotoHomePage();
+        }
         app.contact().removeContactFromGroup(contactSelect, groupSelect);
         app.goTo().gotoHomePage();
+        app.contact().selectDisplayGroup("[all]");
         assertThat(contactSelect.getGroups().without(groupSelect), equalTo(app.db().contacts().stream().
                 filter((c) -> c.getId() == contactSelect.getId()).collect(Collectors.toList()).get(0).getGroups()));
     }

@@ -35,11 +35,17 @@ public class AddContactToGroup extends TestBase {
         GroupData groupSelect = beforeGroup.iterator().next();
 
         app.goTo().gotoHomePage();
-        app.contact().selectAllDisplayGroup();
+        if (!contactSelect.getGroups().isEmpty() && contactSelect.getGroups().contains(groupSelect)) {
+            app.contact().removeContactFromGroup(contactSelect, groupSelect);
+            assertThat(contactSelect.getGroups().without(groupSelect), equalTo(app.db().contacts().stream().
+                    filter((c) -> c.getId() == contactSelect.getId()).collect(Collectors.toList()).get(0).getGroups()));
+            app.goTo().gotoHomePage();
+        }
+        app.contact().selectDisplayGroup("[all]");
         app.contact().addContactToGroup(contactSelect, groupSelect);
-        app.goTo().gotoHomePage();
-        assertThat(contactSelect.getGroups().withAdded(groupSelect), equalTo(app.db().contacts().stream()
-                .filter((c) -> c.getId() == contactSelect.getId()).collect(Collectors.toList()).get(0).getGroups()));
+        assertThat(contactSelect.getGroups().withAdded(groupSelect), equalTo(app.db().contacts().stream().
+                filter((c) -> c.getId() == contactSelect.getId()).collect(Collectors.toList()).get(0).getGroups()));
     }
 }
+
 
